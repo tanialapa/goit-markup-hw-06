@@ -647,6 +647,7 @@ ol {
 }
 
 .email {
+	color: #fff;
 	outline: none;
 	box-sizing: border-box;
 	width: 264px;
@@ -755,11 +756,13 @@ ol {
 	margin-bottom: 4px;
 }
 .input {
+
 	box-sizing: border-box;
 	width: 100%;
 	padding: 14px 14px 14px 38px;
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
+	outline: none;
 }
 
 textarea {
@@ -773,6 +776,8 @@ textarea {
 	font-size: 12px;
 	line-height: 16px;
 	letter-spacing: 0.04em;
+	outline: none;
+	padding: 8px 16px;
 
 	color: #757575;
 }
@@ -791,7 +796,6 @@ textarea {
 	transform: translateY(-50%);
 	display: inline-block;
 	width: 18px;
-	height: 18px;
 	fill: currentColor;
 }
 .form-checkbox {
@@ -806,6 +810,10 @@ textarea {
 .name-field-container:hover .form-icon,
 .name-field-container:focus .form-icon {
 	color: #4d5ae5;
+}
+.border:hover,
+.border:focus {
+	border: 1px solid#4d5ae5;
 }
 
 .form-submit-button {
